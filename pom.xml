@@ -4,7 +4,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.guitar.db</groupId>
-	<artifactId>ps-guitar-db</artifactId>
+	<artifactId>jpa-guitar</artifactId>
 	<version>1.0.0.SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>Spring Data JPA</name>
