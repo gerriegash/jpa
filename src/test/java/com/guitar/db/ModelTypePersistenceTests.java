@@ -32,7 +32,7 @@ public class ModelTypePersistenceTests {
 	public void testSaveAndGetAndDelete() throws Exception {
 		ModelType mt = new ModelType();
 		mt.setName("Test Model Type");
-		mt = modelTypeJpaRepository.save(mt);
+		mt = modelTypeJpaRepository.saveAndFlush(mt);
 		
 		// clear the persistence context so we don't return the previously cached location object
 		// this is a test only thing and normally doesn't need to be done in prod code
